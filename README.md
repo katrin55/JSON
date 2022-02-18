@@ -82,14 +82,14 @@
 ```
 - для сохранения нажать esc :wq
 
- 13. Отправить сразу 2 файла на внешний репозиторий. \
+ 13. Отправить сразу 2 файла на внешний репозиторий. 
 - `git add . ` 
 - `git push`
 
  14. На веб интерфейсе создать файл bug_report.json.
-- в репозитории нажимаем на кнопку `Add file`, далее `Create new file`
+- в репозитории необходимо нажать на кнопку `Add file`, далее `Create new file`
 - в названии ввести `bug_report.json`
-- добавить: \
+- добавить: 
 ```
 { 
   "Sammary" : "Application crash on clicking the SAVE button while creating a new user",
@@ -112,7 +112,7 @@
 ``` 
 
  15. Сделать Commit changes (сохранить) изменения на веб интерфейсе. \
- нажимаем кнопку `Commit new file`
+ нажать на кнопку `Commit new file`
 
  17. Синхронизировать внешний и локальный репозиторий JSON \
  в терминале GitBash ввести `git pull`
